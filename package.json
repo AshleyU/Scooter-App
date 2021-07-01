@@ -1,0 +1,22 @@
+{
+  "name": "scooter-app",
+  "version": "1.0.0",
+  "description": "Building a scooter app for OOP practice",
+  "main": "Customer.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshleyU/Scooter-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshleyU/Scooter-App/issues"
+  },
+  "homepage": "https://github.com/AshleyU/Scooter-App#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}

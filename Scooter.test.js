@@ -1,0 +1,3 @@
+const Scooter = require('./Scooter');
+
+

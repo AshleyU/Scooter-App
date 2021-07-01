@@ -1,17 +1,18 @@
 class ScooterKiosk {
-    constructor(scooterId) {
-        this.scooterId = scooterId;
+    constructor() {
     }
-    
+
     rentScooter() {
-        return "Scooter rented. Enjoy!";
-    }
-
-    chargeScooter() {
-
+        if (Scooter.chargeScooter() === true) {
+            return "Scooter rented. Enjoy!";
+        } else {
+            
+        }
     }
 
     takePayment() {
-        
+
     }
 }
+
+module.exports = ScooterKiosk;

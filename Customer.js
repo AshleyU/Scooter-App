@@ -1,13 +1,20 @@
 class Customer {
-    constructor(name) {
+    constructor(name, age) {
         this.name = name;
+        this.age = age;
+        this.downloadApp = true;
     }
 
     downloadApp() {
-
+        this.downloadApp = true;
     }
 
-    registerDetails() {
+    registeredDetails() {
+        if(this.age > 17) {
+            return "Customer is registered.";
+        } else {
+            return "You must be 18 or older to register.";
+        }
 
     }
 
@@ -16,6 +23,8 @@ class Customer {
     }
 
     returnScooter() {
-        
+
     }
 }
+
+module.exports = Customer;

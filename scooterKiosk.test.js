@@ -1,0 +1,1 @@
+const scooterKiosk = require('./ScooterKiosk');
