@@ -4,7 +4,8 @@
   "description": "Building a scooter app for OOP practice",
   "main": "Customer.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:report": "jest --coverage=true"
   },
   "repository": {
     "type": "git",
