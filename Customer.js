@@ -2,11 +2,10 @@ class Customer {
     constructor(name, age) {
         this.name = name;
         this.age = age;
-        this.downloadApp = true;
     }
 
     downloadApp() {
-        this.downloadApp = true;
+        return true;
     }
 
     registeredDetails() {
@@ -15,14 +14,6 @@ class Customer {
         } else {
             return "You must be 18 or older to register.";
         }
-
-    }
-
-    rentScooter() {
-
-    }
-
-    returnScooter() {
 
     }
 }
