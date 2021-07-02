@@ -10,8 +10,10 @@ test('Can rent scooter', () => {
 
 test('Can return scooter', () => {
     expect(scooterK1.returnScooter()).toBe(true);
+    expect(scooterK2.returnScooter()).toBe(false);
 });
 
 test('Can collect payment', () => {
     expect(scooterK1.takePayment()).toBe("Thank you for your payment");
+    expect(scooterK2.takePayment()).toBe("Please return your scooter to pay");
 });

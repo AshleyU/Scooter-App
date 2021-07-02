@@ -18,13 +18,17 @@ class ScooterKiosk {
     returnScooter() {
         if(this.rentScooter() === "Scooter rented. Enjoy!") {
             return true;
+        } else {
+            return false;
         }
     }
 
     takePayment() {
         if(this.returnScooter() === true) {
             return "Thank you for your payment";
-        } 
+        } else {
+            return "Please return your scooter to pay";
+        }
     }
 }
 
